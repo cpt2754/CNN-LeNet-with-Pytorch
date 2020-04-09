@@ -1,5 +1,5 @@
 # Using CNN(LeNet) with Pytorch to train Some famous Dataset
-In this repo I have used 2 Famous Dataset i.e CIFAR10, MNIST
+In this repo I have used 2 Famous Dataset i.e CIFAR10, MNIST.
 
 # CIFAR10
 In this we have seen by using tanh Activation function with LeNet we overfit our model.So we try using ReLU Activation Function and improve our condition of overfit but Still Data overfit in our model, so we use L2 regularization using weight_decay in our optimization i.e Adam.
